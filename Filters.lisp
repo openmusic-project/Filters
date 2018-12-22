@@ -164,6 +164,10 @@ We will use the median point of the effective window delay"
 ;=======================================================================
 ;filling lib package
 ;=======================================================================
+
+(om::add-lib-alias "OM-fil" "Filters")
+
+
 (om::fill-library 
  '(("filtres" nil nil 
     (filtres::low-pass filtres::low-pass-rec filtres::median-filter filtres::median-filter-rec filtres::mean-filter filtres::mean-filter-rec ) nil)
