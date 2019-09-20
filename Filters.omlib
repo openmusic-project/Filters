@@ -1,0 +1,24 @@
+;====================================
+; Filter functions (low pass, median)
+;
+; Mikhail Malt, 2005
+;====================================
+
+(:om-lib 
+ (:version 0.3)
+ (:doc "Filter functions (low pass, median)")
+ (:author " Mikhail Malt, 2005")
+ (:source-files "sources/filters")
+ (:symbols
+  (:packages 
+   (:package 
+    (:name "Filters")
+    (:functions 
+     "filtres::low-pass" "filtres::low-pass-rec" "filtres::median-filter" 
+     "filtres::median-filter-rec" "filtres::mean-filter" "filtres::mean-filter-rec"))
+   (:package 
+    (:name "Utils")
+    (:functions "filtres::debut" "filtres::fin"))
+   ))
+ )
+
