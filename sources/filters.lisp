@@ -9,7 +9,7 @@
 (defvar FILTRES)
 
 (defpackage "FILTRES" 
-(:use "COMMON-LISP" "OpenMusic"))
+(:use "COMMON-LISP" "OM"))
 
 (add-lib-alias "OM-fil" "Filters")
 

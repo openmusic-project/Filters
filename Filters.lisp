@@ -9,7 +9,7 @@
 
 (compile&load (om-relative-path '("sources") "filters"))
 
-(set-lib-release 0.3)
+(set-lib-release 0.4)
 
 (fill-library 
  '(("filtres" nil nil 
